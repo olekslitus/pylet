@@ -120,7 +120,7 @@ pyto graph
 | `MANIFEST.in`      |               |
 | `.bandit`          |               |
 | `requirements.txt` |               |
-
+| `.flake8`          |               |
 
 ### Scaffold
 - [pyscaffold](https://github.com/pyscaffold/pyscaffold)
