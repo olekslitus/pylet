@@ -13,6 +13,14 @@ Choose build:
 
 ```
 
+## Install
+```
+pipx install pyto
+brew install pyto
+pip install pyto
+conda install pyto
+```
+
 ## Config
 ```
 # pyproject.toml
