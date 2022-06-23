@@ -6,10 +6,17 @@ Python command tools
 
 pyto new
 
-Choose build:
+Package name: pip
+Version [0.1.0]: 
+
+Build tool:
     [*] setuptools
     [ ] poetry
     [ ] flit
+    
+Security tools [black]: 
+
+Test tools [pytest]:
 
 ```
 
