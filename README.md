@@ -118,6 +118,7 @@ pyto graph
 | `Pipfile.lock`   |               |
 | `pyproject.toml` |               |
 | `MANIFEST.in`    |               |
+| `.bandit`        |               |
 
 
 ### Scaffold
