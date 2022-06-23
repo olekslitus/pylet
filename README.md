@@ -73,16 +73,16 @@ Commands:
 ### Files
 | Filename           | Used by       |
 | ------------------ | ------------- |
-| `setup.py`         |               |
+| `pyproject.toml`   |               |
 | `setup.cfg`        |               |
+| `setup.py`         |               |
+| `requirements.txt` |               |
+| `MANIFEST.in`      |               |
 | `Pipfile`          |               |
 | `Pipfile.lock`     |               |
-| `pyproject.toml`   |               |
-| `MANIFEST.in`      |               |
-| `.bandit`          |               |
-| `requirements.txt` |               |
-| `.flake8`          |               |
 | `poetry.lock`      |               |
+| `.flake8`          |               |
+| `.bandit`          |               |
 | `tox.ini`          |               |
 
 ### Scaffold
