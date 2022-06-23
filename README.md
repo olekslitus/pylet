@@ -143,13 +143,13 @@ pyto graph
 - [p](https://github.com/qw3rtman/p) - **@unmaintained**
 - [pew](https://github.com/berdario/pew)
 
-### Execution
+### Python
 - [cpython](https://github.com/python/cpython)
-- [pypy](https://www.pypy.org)
-- [stackless](https://github.com/stackless-dev/stackless)
-- [micropython](https://micropython.org)
-- [rustpython](https://rustpython.github.io)
-- [anaconda](https://www.anaconda.com)
+- [pypy](https://www.pypy.org) **@unsuported**
+- [stackless](https://github.com/stackless-dev/stackless) **@unsuported**
+- [micropython](https://micropython.org) **@unsuported**
+- [rustpython](https://rustpython.github.io) **@unsuported**
+- [anaconda](https://www.anaconda.com) **@unsuported**
 
 ### Packaging
 History: `distutils -> setuptools -> ...`
