@@ -105,29 +105,7 @@ pyto graph
 
 ```
 
---------
-
-## Tools and what they do
-- [build](https://github.com/pypa/build) : build
-- [twine](https://github.com/pypa/build) : publish
-
-- [poetry](https://github.com/pypa/build) : init build install publish dependency-tree
-
-- [flit](https://github.com/pypa/flit) : init build install publish
-
-
---------
-
-
 ## Python Ecosystem
-
-
-### Large Tool
-- [conda](https://docs.conda.io/en/latest/)
-- [pip-tools](https://github.com/jazzband/pip-tools/)
-
-### Other
-- [bumpver](https://github.com/mbarkhau/bumpver)
 
 ### Scaffolding / Package New
 - [pyscaffold](https://github.com/pyscaffold/pyscaffold)
@@ -138,50 +116,31 @@ pyto graph
 - [scaffold-py](https://github.com/Aaronontheweb/scaffold-py) - **@unmaintained**
 - [simplepkg](https://gitlab.com/b5n/simplepkg) - **@unmaintained**
 
-### Versioning
-- [pyenv](https://github.com/pyenv/pyenv)
-- [p](https://github.com/qw3rtman/p) - **@unmaintained**
-- [pew](https://github.com/berdario/pew)
-
-### Python
-- [cpython](https://github.com/python/cpython)
-- [pypy](https://www.pypy.org) **@unsuported**
-- [stackless](https://github.com/stackless-dev/stackless) **@unsuported**
-- [micropython](https://micropython.org) **@unsuported**
-- [rustpython](https://rustpython.github.io) **@unsuported**
-- [anaconda](https://www.anaconda.com) **@unsuported**
-
-### Packaging
-History: `distutils -> setuptools -> ...`
-- [distutils](https://docs.python.org/3/library/distutils.html) - **@deprecated** in favor of setuptools
-- [bento](https://github.com/cournape/Bento) - **@unmaintained**
-
 ### Build
-- [distutils](https://docs.python.org/3/library/distutils.html) - **@deprecated** in favor of setuptools
 - [setuptools](https://github.com/pypa/setuptools)
 - [build](https://github.com/pypa/build)
 - [packaging](https://github.com/pypa/packaging)
 - [pipenv](https://pipenv.pypa.io/en/latest/)
 - [pybuilder](https://github.com/pybuilder/pybuilder)
+- [conda](https://docs.conda.io/en/latest/)
+- [pip-tools](https://github.com/jazzband/pip-tools/)
+- [distutils](https://docs.python.org/3/library/distutils.html) - **@deprecated** in favor of setuptools
+- [bento](https://github.com/cournape/Bento) - **@unmaintained**
+
+### Publish
+- [twine](https://github.com/pypa/twine)
+- [flit](https://github.com/pypa/flit)
 
 ### Dependecies
 - [pip](https://github.com/pypa/pip)
 - [pipx](https://github.com/pypa/pipx)
 - [poetry](https://github.com/python-poetry/poetry)
-- [easy_install](https://setuptools.pypa.io/en/latest/deprecated/easy_install.html) - **@deprecated** in favor of setuptools
 - [rez](https://github.com/AcademySoftwareFoundation/rez)
-
-### Publishing
-- [twine](https://github.com/pypa/twine)
-- [flit](https://github.com/pypa/flit)
+- [easy_install](https://setuptools.pypa.io/en/latest/deprecated/easy_install.html) - **@deprecated** in favor of setuptools
 
 ### Environment
 - [venv](https://docs.python.org/3/library/venv.html)
 - [virtualenv](https://github.com/pypa/virtualenv)
-
-### Dynamic Checks
-#### Type Checker
-- []
 
 ### Static Checks
 #### Type Checker
@@ -205,12 +164,12 @@ History: `distutils -> setuptools -> ...`
 - [radon](https://github.com/rubik/radon)
 - [black](https://github.com/psf/black)
 - [isort](https://pycqa.github.io/isort/)
-- [pylava](https://github.com/pylava/pylava) - **@unmaintained**
 - [autopep8](https://github.com/hhatto/autopep8)
 - [pychecker](http://pychecker.sourceforge.net)
 - [eradicate](https://github.com/myint/eradicate)
 - [vulture](https://github.com/jendrikseipp/vulture)
 - [yapf](https://github.com/google/yapf)
+- [pylava](https://github.com/pylava/pylava) - **@unmaintained**
 - [pep8ify](https://github.com/spulec/pep8ify) - **@unmaintained**
 
 ### Documentation
@@ -225,6 +184,22 @@ History: `distutils -> setuptools -> ...`
 - [tox](https://tox.wiki/en/latest/)
 - [hypothesis](https://hypothesis.readthedocs.io/en/latest/)
 - [pytest](https://docs.pytest.org/en/latest/)
+
+### Package Version
+- [bumpver](https://github.com/mbarkhau/bumpver)
+
+### Python Versioning
+- [pyenv](https://github.com/pyenv/pyenv)
+- [pew](https://github.com/berdario/pew)
+- [p](https://github.com/qw3rtman/p) - **@unmaintained**
+
+### Python Implementation
+- [cpython](https://github.com/python/cpython) - basic python we love
+- [pypy](https://www.pypy.org) **@unsuported**
+- [stackless](https://github.com/stackless-dev/stackless) **@unsuported**
+- [micropython](https://micropython.org) **@unsuported**
+- [rustpython](https://rustpython.github.io) **@unsuported**
+- [anaconda](https://www.anaconda.com) **@unsuported**
 
 
 ### PEPs
