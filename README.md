@@ -103,7 +103,7 @@ Commands:
 - [conda](https://docs.conda.io/en/latest/)
 - [pip-tools](https://github.com/jazzband/pip-tools/)
 - [bento](https://github.com/cournape/Bento) - **@unmaintained**
-- - [distutils](https://docs.python.org/3/library/distutils.html) - **@deprecated** in favor of setuptools
+- [distutils](https://docs.python.org/3/library/distutils.html) - **@deprecated** in favor of setuptools
 
 ### Publish
 - [twine](https://github.com/pypa/twine) **@pypa**
