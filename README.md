@@ -174,6 +174,7 @@ pyto graph
 - [bandit](https://github.com/PyCQA/bandit)
 - [pyre](https://github.com/facebook/pyre-check)
 - [safety](https://github.com/pyupio/safety)
+- [spaghetti](https://github.com/pysal/spaghetti)
 - [pyntch](https://www.unixuser.org/~euske/python/pyntch/index.html) **@umaintained @python2**
 - [pyt](https://github.com/python-security/pyt) **@deprecated** in favor of pyre, bandit
 
