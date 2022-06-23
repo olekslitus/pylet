@@ -122,6 +122,8 @@ pyto graph
 | `.bandit`          |               |
 | `requirements.txt` |               |
 | `.flake8`          |               |
+| `poetry.lock`      |               |
+| `tox.ini`          |               |
 
 ### Scaffold
 - [pyscaffold](https://github.com/pyscaffold/pyscaffold)
