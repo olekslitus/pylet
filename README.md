@@ -109,6 +109,17 @@ pyto graph
 
 ## Python Ecosystem
 
+### Config files
+| Filename         | Used by       |
+| ---------------- | ------------- |
+| `setup.py`       |               |
+| `setup.cfg`      |               |
+| `Pipfile`        |               |
+| `Pipfile.lock`   |               |
+| `pyproject.toml` |               |
+| `MANIFEST.in`    |               |
+
+
 ### Scaffold
 - [pyscaffold](https://github.com/pyscaffold/pyscaffold)
 - [cookiecutter](https://github.com/cookiecutter/cookiecutter)
