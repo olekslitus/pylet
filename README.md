@@ -119,14 +119,17 @@ pyto graph
 --------
 
 
-## Large Tool
+## Python Ecosystem
+
+
+### Large Tool
 - [conda](https://docs.conda.io/en/latest/)
 - [pip-tools](https://github.com/jazzband/pip-tools/)
 
-## Other
+### Other
 - [bumpver](https://github.com/mbarkhau/bumpver)
 
-## Scaffolding / Package New
+### Scaffolding / Package New
 - [pyscaffold](https://github.com/pyscaffold/pyscaffold)
 - [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 - [python-cli-tool-scaffold](https://github.com/dotanuki-labs/python-cli-tool-scaffold)
@@ -135,24 +138,24 @@ pyto graph
 - [scaffold-py](https://github.com/Aaronontheweb/scaffold-py) - **@unmaintained**
 - [simplepkg](https://gitlab.com/b5n/simplepkg) - **@unmaintained**
 
-## Versioning
+### Versioning
 - [pyenv](https://github.com/pyenv/pyenv)
 - [p](https://github.com/qw3rtman/p) - **@unmaintained**
 - [pew](https://github.com/berdario/pew)
 
-## Execution
+### Execution
 - [cpython](https://github.com/python/cpython)
 - [pypy](https://www.pypy.org)
 - [stackless](https://github.com/stackless-dev/stackless)
 - [micropython](https://micropython.org)
 - [rustpython](https://rustpython.github.io)
 
-## Packaging
+### Packaging
 History: `distutils -> setuptools -> ...`
 - [distutils](https://docs.python.org/3/library/distutils.html) - **@deprecated** in favor of setuptools
 - [bento](https://github.com/cournape/Bento) - **@unmaintained**
 
-## Build
+### Build
 - [distutils](https://docs.python.org/3/library/distutils.html) - **@deprecated** in favor of setuptools
 - [setuptools](https://github.com/pypa/setuptools)
 - [build](https://github.com/pypa/build)
@@ -160,37 +163,37 @@ History: `distutils -> setuptools -> ...`
 - [pipenv](https://pipenv.pypa.io/en/latest/)
 - [pybuilder](https://github.com/pybuilder/pybuilder)
 
-## Dependecies
+### Dependecies
 - [pip](https://github.com/pypa/pip)
 - [pipx](https://github.com/pypa/pipx)
 - [poetry](https://github.com/python-poetry/poetry)
 - [easy_install](https://setuptools.pypa.io/en/latest/deprecated/easy_install.html) - **@deprecated** in favor of setuptools
 - [rez](https://github.com/AcademySoftwareFoundation/rez)
 
-## Publishing
+### Publishing
 - [twine](https://github.com/pypa/twine)
 - [flit](https://github.com/pypa/flit)
 
-## Environment
+### Environment
 - [venv](https://docs.python.org/3/library/venv.html)
 - [virtualenv](https://github.com/pypa/virtualenv)
 
-## Dynamic Checks
-### Type Checker
+### Dynamic Checks
+#### Type Checker
 - []
 
-## Static Checks
-### Type Checker
+### Static Checks
+#### Type Checker
 - [mypy](https://github.com/python/mypy)
 - [pytype](https://github.com/google/pytype)
 - [pyright](https://github.com/microsoft/pyright)
 - [pyre-check](https://github.com/facebook/pyre-check)
 - [pyanalyze](https://github.com/quora/pyanalyze)
 
-### Security Checks
+#### Security Checks
 - [bandit](https://github.com/PyCQA/bandit)
 
-## Linting
+### Linting
 - [flake8](https://github.com/PyCQA/flake8)
 - [pycodestyle](https://github.com/PyCQA/pycodestyle)
 - [pyflakes](https://github.com/PyCQA/pyflakes)
@@ -209,13 +212,13 @@ History: `distutils -> setuptools -> ...`
 - [yapf](https://github.com/google/yapf)
 - [pep8ify](https://github.com/spulec/pep8ify) - **@unmaintained**
 
-## Documentation
+### Documentation
 - [doxygen](https://www.doxygen.nl/index.html)
 - [docutils](https://docutils.sourceforge.io)
 - [sphinx](https://www.sphinx-doc.org/en/master/index.html)
 - [autodoc](https://pypi.org/project/autodoc/)
 
-## Testing
+### Testing
 - [nose](https://nose.readthedocs.io/en/latest/)
 - [unittest](https://docs.python.org/3/library/unittest.html)
 - [tox](https://tox.wiki/en/latest/)
@@ -223,7 +226,7 @@ History: `distutils -> setuptools -> ...`
 - [pytest](https://docs.pytest.org/en/latest/)
 
 
-## PEPs
+### PEPs
 - [PEP 518](https://peps.python.org/pep-0518/) - minimum build system 
 
 
