@@ -39,6 +39,7 @@ https://github.com/navdeep-G/samplemod
 - Have generator declaration, so other can make other types of projects
 - Generate git
 - Generate `.gitignore`
+- Generate License
 
 ## How setup looks
 ```shell
