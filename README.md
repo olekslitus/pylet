@@ -120,18 +120,18 @@ pyto graph
 
 ### Build
 - [setuptools](https://github.com/pypa/setuptools) **@pypa**
-- [build](https://github.com/pypa/build)
-- [packaging](https://github.com/pypa/packaging)
-- [pipenv](https://pipenv.pypa.io/en/latest/)
+- [build](https://github.com/pypa/build) **@pypa**
+- [packaging](https://github.com/pypa/packaging) **@pypa**
+- [pipenv](https://pipenv.pypa.io/en/latest/) **@pypa**
 - [pybuilder](https://github.com/pybuilder/pybuilder)
 - [conda](https://docs.conda.io/en/latest/)
 - [pip-tools](https://github.com/jazzband/pip-tools/)
-- [distutils](https://docs.python.org/3/library/distutils.html) - **@deprecated** in favor of setuptools
 - [bento](https://github.com/cournape/Bento) - **@unmaintained**
+- - [distutils](https://docs.python.org/3/library/distutils.html) - **@deprecated** in favor of setuptools
 
 ### Publish
-- [twine](https://github.com/pypa/twine)
-- [flit](https://github.com/pypa/flit)
+- [twine](https://github.com/pypa/twine) **@pypa**
+- [flit](https://github.com/pypa/flit) **@pypa**
 
 ### Dependecies
 - [pip](https://github.com/pypa/pip) **@pypa @python2 @python3**
