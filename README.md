@@ -55,57 +55,31 @@ Choose build:
 
 ## CLI
 ```shell
+❯ poetry run pyto          
+Usage: pyto [OPTIONS] COMMAND [ARGS]...
 
-# initialize a new python package in current directory
-# from existing setup or anew (easy to convert existing project)
-pyto init
+  pyto - python command tools
 
-# create a new directory
-pyto new NAME
+Options:
+  --version  Show the version and exit.
+  --help     Show this message and exit.
 
-# set default python
-pyto set global python3
-
-# install all packages
-pyto install
-
-# uninstall all packages
-pyto uninstall
-
-# Create new virtual env
-pyto env
-
-# run script
-pyto run [--no-check] target=.
-
-# compile code
-pyto build
-
-# clean env from unused dependencies
-pyto clean
-
-# run static checks
-pyto check target=.
-
-# generate docs
-pyto docs
-
-# extend pyto
-pyto add COMPONENT
-
-# pin python requirments
-pyto pin
-
-# publish package
-pyto publish [--dry-run]
-pyto publish [--testpypi]
-
-# install locally
-pyto install
-
-# show dependency graph
-pyto graph
-
+Commands:
+  add        Add new dependency
+  adopt      Adopt the current setup of the package
+  build      Build the project
+  check      Perform static check of the target
+  clean      Clean env from unused dependecies
+  docs       Generate docs
+  env        Create virtual evirment
+  graph      Show dependecy graph of the project
+  init       Initialize a new project in this directory
+  install    Install all packages
+  new        Create a new project in specified directory
+  pin        Pin requirements
+  publish    publish package
+  run        Run scripts
+  uninstall  Uninstall all packages
 ```
 
 ## Python Ecosystem
