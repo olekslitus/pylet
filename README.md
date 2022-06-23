@@ -3,6 +3,13 @@ Simple python manager
 
 Pyto abstracts over all tools you love to bring a uniform experince.
 
+Pyto is a wrapper around other powerful tools that evolve and change, 
+pyto in the same manner adapts to always use the most up-to-date convention by default.
+
+Pyto can also be setup to used as simple project creation tool or something else.
+Pyto know about all of the best tools for python and tries to use them, 
+if we do not have support for some awsome tools, please open an issue.
+
 Inspired by [cargo](https://doc.rust-lang.org/cargo/), [raco](https://docs.racket-lang.org/raco/) and [yeoman](https://yeoman.io).
 Written in pure typed Python.
 
@@ -14,6 +21,22 @@ Pyto works the same on all OS and has same commands.
 
 Pyto always defaults to the newest PEPs to be shiny.
 But you can ovveride behavioyr using `pyto.toml`
+
+You live before Python 3.6? Do not have pyproject.toml? 
+No problem `pyto` can be used with any setup even `distutils` !
+
+# Info
+
+### Project Structure
+
+Strcuture of your project is very personal thing, however, as we are not only charming, but also very opninated manager, we decided to enforce standart project structure. You are probably already familier with it, as a large number of Python project are using same or very similar structure. Our was highly influnced by the following:
+
+https://docs.python-guide.org/writing/structure/
+https://github.com/navdeep-G/samplemod
+
+## Todo
+- Have autometic resolution of things like `setup.py` and only create them for versions that require it.
+- Have generator declaration, so other can make other types of projects
 
 ## How setup looks
 ```shell
@@ -77,7 +100,24 @@ pyto publish [--testpypi]
 # install locally
 pyto install
 
+# show dependency graph
+pyto graph
+
 ```
+
+--------
+
+## Tools and what they do
+- [build](https://github.com/pypa/build) : build
+- [twine](https://github.com/pypa/build) : publish
+
+- [poetry](https://github.com/pypa/build) : init build install publish dependency-tree
+
+- [flit](https://github.com/pypa/flit) : init build install publish
+
+
+--------
+
 
 ## Large Tool
 - [conda](https://docs.conda.io/en/latest/)
@@ -86,8 +126,14 @@ pyto install
 ## Other
 - [bumpver](https://github.com/mbarkhau/bumpver)
 
-## Create Package
+## Scaffolding / Package New
 - [pyscaffold](https://github.com/pyscaffold/pyscaffold)
+- [cookiecutter](https://github.com/cookiecutter/cookiecutter)
+- [python-cli-tool-scaffold](https://github.com/dotanuki-labs/python-cli-tool-scaffold)
+- [yehua](https://github.com/moremoban/yehua) - **@unmaintained**
+- [carcass](https://github.com/MSAdministrator/carcass) - **@unmaintained**
+- [scaffold-py](https://github.com/Aaronontheweb/scaffold-py) - **@unmaintained**
+- [simplepkg](https://gitlab.com/b5n/simplepkg) - **@unmaintained**
 
 ## Versioning
 - [pyenv](https://github.com/pyenv/pyenv)
@@ -192,3 +238,9 @@ History: `distutils -> setuptools -> ...`
 - [Packaging a python library](https://blog.ionelmc.ro/2014/05/25/python-packaging/#the-structure)
 - [Source distribution format](https://packaging.python.org/en/latest/specifications/source-distribution-format/)
 - [PyPi publish package](https://realpython.com/pypi-publish-python-package/)
+
+
+## Dev
+
+https://click.palletsprojects.com/en/7.x/utils/
+https://setuptools.readthedocs.io/en/latest/userguide/entry_point.html
