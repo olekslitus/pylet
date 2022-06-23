@@ -141,8 +141,9 @@ pyto graph
 - [easy_install](https://setuptools.pypa.io/en/latest/deprecated/easy_install.html) - **@deprecated** in favor of setuptools
 
 ### Environment
-- [venv](https://docs.python.org/3/library/venv.html) **@std @python3**
+- [venv](https://docs.python.org/3/library/venv.html) **@std @>python3.8**
 - [virtualenv](https://github.com/pypa/virtualenv) **@pypa @python2 @python3**
+- [pyvenv](https://docs.python.org/3/whatsnew/3.8.html#api-and-feature-removals) **@deprecated @python3.3-3.7** in favor of venv
 
 ### Static Checks
 #### Type Checker
