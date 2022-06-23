@@ -37,6 +37,8 @@ https://github.com/navdeep-G/samplemod
 ## Todo
 - Have autometic resolution of things like `setup.py` and only create them for versions that require it.
 - Have generator declaration, so other can make other types of projects
+- Generate git
+- Generate `.gitignore`
 
 ## How setup looks
 ```shell
@@ -117,7 +119,7 @@ pyto graph
 - [simplepkg](https://gitlab.com/b5n/simplepkg) - **@unmaintained**
 
 ### Build
-- [setuptools](https://github.com/pypa/setuptools)
+- [setuptools](https://github.com/pypa/setuptools) **@pypa**
 - [build](https://github.com/pypa/build)
 - [packaging](https://github.com/pypa/packaging)
 - [pipenv](https://pipenv.pypa.io/en/latest/)
@@ -139,8 +141,8 @@ pyto graph
 - [easy_install](https://setuptools.pypa.io/en/latest/deprecated/easy_install.html) - **@deprecated** in favor of setuptools
 
 ### Environment
-- [venv](https://docs.python.org/3/library/venv.html)
-- [virtualenv](https://github.com/pypa/virtualenv)
+- [venv](https://docs.python.org/3/library/venv.html) **@std @python3**
+- [virtualenv](https://github.com/pypa/virtualenv) **@pypa @python2 @python3**
 
 ### Static Checks
 #### Type Checker
