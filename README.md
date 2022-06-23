@@ -1,4 +1,4 @@
-# pyto/pylet
+# pyto
 Simple python manager
 
 Pyto abstracts over all tools you love to bring a uniform experince.
