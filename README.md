@@ -1,4 +1,4 @@
-# pyto/pylet
+# pyto
 Simple python manager
 
 Pyto abstracts over all tools you love to bring a uniform experince.
@@ -37,6 +37,9 @@ https://github.com/navdeep-G/samplemod
 ## Todo
 - Have autometic resolution of things like `setup.py` and only create them for versions that require it.
 - Have generator declaration, so other can make other types of projects
+- Generate git
+- Generate `.gitignore`
+- Generate License
 
 ## How setup looks
 ```shell
@@ -105,28 +108,24 @@ pyto graph
 
 ```
 
---------
+## Python Ecosystem
 
-## Tools and what they do
-- [build](https://github.com/pypa/build) : build
-- [twine](https://github.com/pypa/build) : publish
+### Files
+| Filename           | Used by       |
+| ------------------ | ------------- |
+| `setup.py`         |               |
+| `setup.cfg`        |               |
+| `Pipfile`          |               |
+| `Pipfile.lock`     |               |
+| `pyproject.toml`   |               |
+| `MANIFEST.in`      |               |
+| `.bandit`          |               |
+| `requirements.txt` |               |
+| `.flake8`          |               |
+| `poetry.lock`      |               |
+| `tox.ini`          |               |
 
-- [poetry](https://github.com/pypa/build) : init build install publish dependency-tree
-
-- [flit](https://github.com/pypa/flit) : init build install publish
-
-
---------
-
-
-## Large Tool
-- [conda](https://docs.conda.io/en/latest/)
-- [pip-tools](https://github.com/jazzband/pip-tools/)
-
-## Other
-- [bumpver](https://github.com/mbarkhau/bumpver)
-
-## Scaffolding / Package New
+### Scaffold
 - [pyscaffold](https://github.com/pyscaffold/pyscaffold)
 - [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 - [python-cli-tool-scaffold](https://github.com/dotanuki-labs/python-cli-tool-scaffold)
@@ -135,62 +134,55 @@ pyto graph
 - [scaffold-py](https://github.com/Aaronontheweb/scaffold-py) - **@unmaintained**
 - [simplepkg](https://gitlab.com/b5n/simplepkg) - **@unmaintained**
 
-## Versioning
-- [pyenv](https://github.com/pyenv/pyenv)
-- [p](https://github.com/qw3rtman/p) - **@unmaintained**
-- [pew](https://github.com/berdario/pew)
-
-## Execution
-- [cpython](https://github.com/python/cpython)
-- [pypy](https://www.pypy.org)
-- [stackless](https://github.com/stackless-dev/stackless)
-- [micropython](https://micropython.org)
-- [rustpython](https://rustpython.github.io)
-
-## Packaging
-History: `distutils -> setuptools -> ...`
-- [distutils](https://docs.python.org/3/library/distutils.html) - **@deprecated** in favor of setuptools
-- [bento](https://github.com/cournape/Bento) - **@unmaintained**
-
-## Build
-- [distutils](https://docs.python.org/3/library/distutils.html) - **@deprecated** in favor of setuptools
-- [setuptools](https://github.com/pypa/setuptools)
-- [build](https://github.com/pypa/build)
-- [packaging](https://github.com/pypa/packaging)
-- [pipenv](https://pipenv.pypa.io/en/latest/)
+### Build
+- [setuptools](https://github.com/pypa/setuptools) **@pypa**
+- [build](https://github.com/pypa/build) **@pypa**
+- [packaging](https://github.com/pypa/packaging) **@pypa**
+- [pipenv](https://pipenv.pypa.io/en/latest/) **@pypa**
 - [pybuilder](https://github.com/pybuilder/pybuilder)
+- [conda](https://docs.conda.io/en/latest/)
+- [pip-tools](https://github.com/jazzband/pip-tools/)
+- [bento](https://github.com/cournape/Bento) - **@unmaintained**
+- - [distutils](https://docs.python.org/3/library/distutils.html) - **@deprecated** in favor of setuptools
 
-## Dependecies
-- [pip](https://github.com/pypa/pip)
-- [pipx](https://github.com/pypa/pipx)
+### Publish
+- [twine](https://github.com/pypa/twine) **@pypa**
+- [flit](https://github.com/pypa/flit) **@pypa**
+
+### Dependecies
+- [pip](https://github.com/pypa/pip) **@pypa @python2 @python3**
+- [pipx](https://github.com/pypa/pipx) **@pypa**
 - [poetry](https://github.com/python-poetry/poetry)
-- [easy_install](https://setuptools.pypa.io/en/latest/deprecated/easy_install.html) - **@deprecated** in favor of setuptools
 - [rez](https://github.com/AcademySoftwareFoundation/rez)
+- [easy_install](https://setuptools.pypa.io/en/latest/deprecated/easy_install.html) - **@deprecated** in favor of setuptools
 
-## Publishing
-- [twine](https://github.com/pypa/twine)
-- [flit](https://github.com/pypa/flit)
+### Environment
+- [venv](https://docs.python.org/3/library/venv.html) **@default @std @python3**
+- [virtualenv](https://github.com/pypa/virtualenv) **@pypa @python2 @python3**
+- [autoenv](https://github.com/hyperupcall/autoenv)
+- [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) **@extension** for pyenv
+- [pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper) **@unmaintained @extension** for pyenv
+- [virtualenvwrapper](https://pypi.org/project/virtualenvwrapper/) **@unmaintained @extension** for virtualenv
+- [pyvenv](https://docs.python.org/3/whatsnew/3.8.html#api-and-feature-removals) **@deprecated** in favor of venv
 
-## Environment
-- [venv](https://docs.python.org/3/library/venv.html)
-- [virtualenv](https://github.com/pypa/virtualenv)
-
-## Dynamic Checks
-### Type Checker
-- []
-
-## Static Checks
-### Type Checker
+### Static Checks
+#### Type Checker
 - [mypy](https://github.com/python/mypy)
 - [pytype](https://github.com/google/pytype)
 - [pyright](https://github.com/microsoft/pyright)
 - [pyre-check](https://github.com/facebook/pyre-check)
 - [pyanalyze](https://github.com/quora/pyanalyze)
 
-### Security Checks
+#### Security
 - [bandit](https://github.com/PyCQA/bandit)
+- [pyre](https://github.com/facebook/pyre-check)
+- [safety](https://github.com/pyupio/safety)
+- [spaghetti](https://github.com/pysal/spaghetti)
+- [pyntch](https://www.unixuser.org/~euske/python/pyntch/index.html) **@umaintained @python2**
+- [pyt](https://github.com/python-security/pyt) **@deprecated** in favor of pyre, bandit
 
-## Linting
+
+### Linting
 - [flake8](https://github.com/PyCQA/flake8)
 - [pycodestyle](https://github.com/PyCQA/pycodestyle)
 - [pyflakes](https://github.com/PyCQA/pyflakes)
@@ -201,31 +193,43 @@ History: `distutils -> setuptools -> ...`
 - [radon](https://github.com/rubik/radon)
 - [black](https://github.com/psf/black)
 - [isort](https://pycqa.github.io/isort/)
-- [pylava](https://github.com/pylava/pylava) - **@unmaintained**
 - [autopep8](https://github.com/hhatto/autopep8)
 - [pychecker](http://pychecker.sourceforge.net)
 - [eradicate](https://github.com/myint/eradicate)
 - [vulture](https://github.com/jendrikseipp/vulture)
 - [yapf](https://github.com/google/yapf)
+- [pylava](https://github.com/pylava/pylava) - **@unmaintained**
 - [pep8ify](https://github.com/spulec/pep8ify) - **@unmaintained**
 
-## Documentation
+### Documentation
 - [doxygen](https://www.doxygen.nl/index.html)
 - [docutils](https://docutils.sourceforge.io)
 - [sphinx](https://www.sphinx-doc.org/en/master/index.html)
 - [autodoc](https://pypi.org/project/autodoc/)
 
-## Testing
+### Test
 - [nose](https://nose.readthedocs.io/en/latest/)
 - [unittest](https://docs.python.org/3/library/unittest.html)
 - [tox](https://tox.wiki/en/latest/)
 - [hypothesis](https://hypothesis.readthedocs.io/en/latest/)
 - [pytest](https://docs.pytest.org/en/latest/)
+- [nox](https://github.com/wntrblm/nox)
 
+### Package Version
+- [bumpver](https://github.com/mbarkhau/bumpver)
 
-## PEPs
-- [PEP 518](https://peps.python.org/pep-0518/) - minimum build system 
+### Python Versioning
+- [pyenv](https://github.com/pyenv/pyenv)
+- [pew](https://github.com/berdario/pew)
+- [p](https://github.com/qw3rtman/p) - **@unmaintained**
 
+### Python Implementation
+- [cpython](https://github.com/python/cpython) - basic python we love
+- [pypy](https://www.pypy.org) **@unsuported**
+- [stackless](https://github.com/stackless-dev/stackless) **@unsuported**
+- [micropython](https://micropython.org) **@unsuported**
+- [rustpython](https://rustpython.github.io) **@unsuported**
+- [anaconda](https://www.anaconda.com) **@unsuported**
 
 ## Read and Remove
 - https://packaging.python.org/en/latest/key_projects/#virtualenv
@@ -239,8 +243,6 @@ History: `distutils -> setuptools -> ...`
 - [Source distribution format](https://packaging.python.org/en/latest/specifications/source-distribution-format/)
 - [PyPi publish package](https://realpython.com/pypi-publish-python-package/)
 
-
 ## Dev
-
 https://click.palletsprojects.com/en/7.x/utils/
 https://setuptools.readthedocs.io/en/latest/userguide/entry_point.html
