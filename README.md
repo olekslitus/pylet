@@ -107,7 +107,7 @@ pyto graph
 
 ## Python Ecosystem
 
-### Scaffolding / Package New
+### Scaffold
 - [pyscaffold](https://github.com/pyscaffold/pyscaffold)
 - [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 - [python-cli-tool-scaffold](https://github.com/dotanuki-labs/python-cli-tool-scaffold)
@@ -132,8 +132,8 @@ pyto graph
 - [flit](https://github.com/pypa/flit)
 
 ### Dependecies
-- [pip](https://github.com/pypa/pip)
-- [pipx](https://github.com/pypa/pipx)
+- [pip](https://github.com/pypa/pip) **@pypa @python2 @python3**
+- [pipx](https://github.com/pypa/pipx) **@pypa**
 - [poetry](https://github.com/python-poetry/poetry)
 - [rez](https://github.com/AcademySoftwareFoundation/rez)
 - [easy_install](https://setuptools.pypa.io/en/latest/deprecated/easy_install.html) - **@deprecated** in favor of setuptools
