@@ -141,9 +141,13 @@ pyto graph
 - [easy_install](https://setuptools.pypa.io/en/latest/deprecated/easy_install.html) - **@deprecated** in favor of setuptools
 
 ### Environment
-- [venv](https://docs.python.org/3/library/venv.html) **@std @>python3.8**
+- [venv](https://docs.python.org/3/library/venv.html) **@default @std @python3**
 - [virtualenv](https://github.com/pypa/virtualenv) **@pypa @python2 @python3**
-- [pyvenv](https://docs.python.org/3/whatsnew/3.8.html#api-and-feature-removals) **@deprecated @python3.3-3.7** in favor of venv
+- [autoenv](https://github.com/hyperupcall/autoenv)
+- [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) **@extension** for pyenv
+- [pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper) **@unmaintained @extension** for pyenv
+- [virtualenvwrapper](https://pypi.org/project/virtualenvwrapper/) **@unmaintained @extension** for virtualenv
+- [pyvenv](https://docs.python.org/3/whatsnew/3.8.html#api-and-feature-removals) **@deprecated** in favor of venv
 
 ### Static Checks
 #### Type Checker
@@ -181,12 +185,13 @@ pyto graph
 - [sphinx](https://www.sphinx-doc.org/en/master/index.html)
 - [autodoc](https://pypi.org/project/autodoc/)
 
-### Testing
+### Test
 - [nose](https://nose.readthedocs.io/en/latest/)
 - [unittest](https://docs.python.org/3/library/unittest.html)
 - [tox](https://tox.wiki/en/latest/)
 - [hypothesis](https://hypothesis.readthedocs.io/en/latest/)
 - [pytest](https://docs.pytest.org/en/latest/)
+- [nox](https://github.com/wntrblm/nox)
 
 ### Package Version
 - [bumpver](https://github.com/mbarkhau/bumpver)
