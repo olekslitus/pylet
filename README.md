@@ -1,45 +1,5 @@
 # pyto
-Simple python manager
-
-Pyto abstracts over all tools you love to bring a uniform experince.
-
-Pyto is a wrapper around other powerful tools that evolve and change, 
-pyto in the same manner adapts to always use the most up-to-date convention by default.
-
-Pyto can also be setup to used as simple project creation tool or something else.
-Pyto know about all of the best tools for python and tries to use them, 
-if we do not have support for some awsome tools, please open an issue.
-
-Inspired by [cargo](https://doc.rust-lang.org/cargo/), [raco](https://docs.racket-lang.org/raco/) and [yeoman](https://yeoman.io).
-Written in pure typed Python.
-
-Whole Python ecosystem in one command line.
-
-Even for simple projects we recommend using `pyto` as it structures all the code and makes sure all your project are consistent
-
-Pyto works the same on all OS and has same commands.
-
-Pyto always defaults to the newest PEPs to be shiny.
-But you can ovveride behavioyr using `pyto.toml`
-
-You live before Python 3.6? Do not have pyproject.toml? 
-No problem `pyto` can be used with any setup even `distutils` !
-
-# Info
-
-### Project Structure
-
-Strcuture of your project is very personal thing, however, as we are not only charming, but also very opninated manager, we decided to enforce standart project structure. You are probably already familier with it, as a large number of Python project are using same or very similar structure. Our was highly influnced by the following:
-
-https://docs.python-guide.org/writing/structure/
-https://github.com/navdeep-G/samplemod
-
-## Todo
-- Have autometic resolution of things like `setup.py` and only create them for versions that require it.
-- Have generator declaration, so other can make other types of projects
-- Generate git
-- Generate `.gitignore`
-- Generate License
+Python command tools
 
 ## How setup looks
 ```shell
@@ -231,3 +191,44 @@ Commands:
 ## Dev
 https://click.palletsprojects.com/en/7.x/utils/
 https://setuptools.readthedocs.io/en/latest/userguide/entry_point.html
+
+
+Pyto abstracts over all tools you love to bring a uniform experince.
+
+Pyto is a wrapper around other powerful tools that evolve and change, 
+pyto in the same manner adapts to always use the most up-to-date convention by default.
+
+Pyto can also be setup to used as simple project creation tool or something else.
+Pyto know about all of the best tools for python and tries to use them, 
+if we do not have support for some awsome tools, please open an issue.
+
+Inspired by [cargo](https://doc.rust-lang.org/cargo/), [raco](https://docs.racket-lang.org/raco/) and [yeoman](https://yeoman.io).
+Written in pure typed Python.
+
+Whole Python ecosystem in one command line.
+
+Even for simple projects we recommend using `pyto` as it structures all the code and makes sure all your project are consistent
+
+Pyto works the same on all OS and has same commands.
+
+Pyto always defaults to the newest PEPs to be shiny.
+But you can ovveride behavioyr using `pyto.toml`
+
+You live before Python 3.6? Do not have pyproject.toml? 
+No problem `pyto` can be used with any setup even `distutils` !
+
+# Info
+
+### Project Structure
+
+Strcuture of your project is very personal thing, however, as we are not only charming, but also very opninated manager, we decided to enforce standart project structure. You are probably already familier with it, as a large number of Python project are using same or very similar structure. Our was highly influnced by the following:
+
+https://docs.python-guide.org/writing/structure/
+https://github.com/navdeep-G/samplemod
+
+## Todo
+- Have autometic resolution of things like `setup.py` and only create them for versions that require it.
+- Have generator declaration, so other can make other types of projects
+- Generate git
+- Generate `.gitignore`
+- Generate License
