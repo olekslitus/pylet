@@ -109,16 +109,17 @@ pyto graph
 
 ## Python Ecosystem
 
-### Config files
-| Filename         | Used by       |
-| ---------------- | ------------- |
-| `setup.py`       |               |
-| `setup.cfg`      |               |
-| `Pipfile`        |               |
-| `Pipfile.lock`   |               |
-| `pyproject.toml` |               |
-| `MANIFEST.in`    |               |
-| `.bandit`        |               |
+### Files
+| Filename           | Used by       |
+| ------------------ | ------------- |
+| `setup.py`         |               |
+| `setup.cfg`        |               |
+| `Pipfile`          |               |
+| `Pipfile.lock`     |               |
+| `pyproject.toml`   |               |
+| `MANIFEST.in`      |               |
+| `.bandit`          |               |
+| `requirements.txt` |               |
 
 
 ### Scaffold
@@ -169,8 +170,13 @@ pyto graph
 - [pyre-check](https://github.com/facebook/pyre-check)
 - [pyanalyze](https://github.com/quora/pyanalyze)
 
-#### Security Checks
+#### Security
 - [bandit](https://github.com/PyCQA/bandit)
+- [pyre](https://github.com/facebook/pyre-check)
+- [safety](https://github.com/pyupio/safety)
+- [pyntch](https://www.unixuser.org/~euske/python/pyntch/index.html) **@umaintained @python2**
+- [pyt](https://github.com/python-security/pyt) **@deprecated** in favor of pyre, bandit
+
 
 ### Linting
 - [flake8](https://github.com/PyCQA/flake8)
@@ -221,11 +227,6 @@ pyto graph
 - [rustpython](https://rustpython.github.io) **@unsuported**
 - [anaconda](https://www.anaconda.com) **@unsuported**
 
-
-### PEPs
-- [PEP 518](https://peps.python.org/pep-0518/) - minimum build system 
-
-
 ## Read and Remove
 - https://packaging.python.org/en/latest/key_projects/#virtualenv
 - `pip install —editable .`
@@ -238,8 +239,6 @@ pyto graph
 - [Source distribution format](https://packaging.python.org/en/latest/specifications/source-distribution-format/)
 - [PyPi publish package](https://realpython.com/pypi-publish-python-package/)
 
-
 ## Dev
-
 https://click.palletsprojects.com/en/7.x/utils/
 https://setuptools.readthedocs.io/en/latest/userguide/entry_point.html
