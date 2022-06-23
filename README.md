@@ -53,8 +53,10 @@ Choose build:
 
 ```
 
-## Pyto `pyproject.toml` strcuture
+## Config
 ```
+# pyproject.toml
+
 [tool.pyto.build]
 ...
 
