@@ -53,6 +53,15 @@ Choose build:
 
 ```
 
+## Pyto `pyproject.toml` strcuture
+```
+[tool.pyto.build]
+...
+
+[tool.pyto.security]
+...
+```
+
 ## CLI
 ```shell
 ❯ poetry run pyto          
